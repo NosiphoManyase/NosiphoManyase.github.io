@@ -1,0 +1,49 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html{
+    position: relative;
+}
+
+.App{
+    background-color:#2A2A2A ;
+    color:#FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero{
+    height: 600px;
+    position: relative;
+    overflow: none;
+}
+
+.navbar{
+    margin-left: auto;
+    color: white;
+    width: 500px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.custom-container{
+    padding: 0 215px;
+}
+
+.section-spacing{
+    margin: 112px 0;
+}
+
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) {
+    .black_bg{
+        height: 1000px;
+        left: 70%;
+        top: -192px;
+        transform: rotate(9.67deg);
+    }
+}

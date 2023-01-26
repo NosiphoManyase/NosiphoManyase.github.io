@@ -1,11 +1,15 @@
 import React from "react";
+import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero";
-import './main.scss'
+import './scss/main.scss'
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <div className="container-xl">
+        <Hero />
+        <About />
+      </div>
     </div>
   );
 }
