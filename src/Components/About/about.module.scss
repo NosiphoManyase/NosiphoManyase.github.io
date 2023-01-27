@@ -8,18 +8,13 @@
 .skills_list{
     display:  grid;
     grid-template-columns: repeat(3, 250px);
-    grid-template-rows: 200px;
+    grid-template-rows: repeat(3, 200px);
     width: max-content;
-    margin: 0 auto;
     align-items: center;
 }
 
 .logo{
-    margin: 0 auto;
-}
-
-.skill_name{
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 .html_logo{

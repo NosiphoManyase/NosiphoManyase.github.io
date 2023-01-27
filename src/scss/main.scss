@@ -35,6 +35,26 @@ html{
     margin: 112px 0;
 }
 
+.form-control{
+    background-color: #4F4F4F;
+    border: none;
+    
+    &::placeholder{
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.footer{
+    background-color: #4F4F4F;
+    display: flex;
+    flex: row;
+    align-items: center;
+    height: 30vh;
+    min-height: 250px;
+    width: 100%;
+}
+
+
 // @include media-breakpoint-up(sm) { ... }
 // @include media-breakpoint-up(md) { ... }
 // @include media-breakpoint-up(lg) { ... }
