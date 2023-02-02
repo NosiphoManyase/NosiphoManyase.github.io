@@ -1,74 +1,10 @@
 
 .about_me{
-    p{
-        opacity: 0.7;
-    }
+    display: flex;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.05);
+    border-radius: 24px;
+    padding: 24px;
+    gap: 24px;
 }
 
-.skills_list{
-    display:  grid;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(3, 200px);
-    width: max-content;
-    align-items: center;
-}
-
-.logo{
-    margin-bottom: 10px;
-}
-
-.html_logo{
-    background: url('../../assets/Skills.png') no-repeat -78px -149px;
-	width: 85px;
-	height: 100px;
-}
-
-.css_logo{
-    background: url('../../assets/Skills.png') no-repeat -319px -149px;
-	width: 85px;
-	height: 100px;
-}
-
-.sass_logo{
-    background: url('../../assets/Skills.png') no-repeat -554px -149px;
-	width: 127px;
-	height: 100px;
-}
-
-.js_logo{
-    background: url('../../assets/Skills.png') no-repeat -825px -149px;
-	width: 97px;
-	height: 100px;
-}
-
-.react_logo{
-    background: url('../../assets/Skills.png') no-repeat -67px -383px;
-	width: 106px;
-	height: 100px;
-}
-
-.bs_logo{
-    background: url('../../assets/Skills.png') no-repeat -313px -383px;
-	width: 97px;
-	height: 100px;
-}
-
-.git_logo{
-    background: url('../../assets/Skills.png') no-repeat -569px -383px;
-	width: 97px;
-	height: 100px;
-}
-
-.figma_logo{
-    background: url('../../assets/Skills.png') no-repeat -843px -384px;
-	width: 70px;
-	height: 100px;
-}
-
-.reactq_logo{
-    background: url('../../assets/react_query_logo.png') no-repeat center;
-    object-fit: contain;
-    background-size: 100% auto;
-    width: 100px;
-    height: 100px;
-}

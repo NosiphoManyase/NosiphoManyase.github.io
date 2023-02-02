@@ -1,0 +1,61 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, p, h4{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background-color:#2A2A2A ;
+    color:#FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper{
+    width: 606px;
+    margin: 0 auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.fs_big{
+    font-size: 1.777rem;
+}
+
+.fs_medium{
+    font-size: 1.333rem;
+}
+
+.fs_small{
+    font-size: 12px;
+}
+
+.opacity_white{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) {
+    .black_bg{
+        height: 1000px;
+        left: 70%;
+        top: -192px;
+        transform: rotate(9.67deg);
+    }
+}

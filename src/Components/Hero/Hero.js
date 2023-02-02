@@ -1,39 +1,24 @@
 import React from 'react'
-import {EnvelopeAtFill} from 'react-bootstrap-icons'
-import {Github} from 'react-bootstrap-icons'
-import {Linkedin} from 'react-bootstrap-icons'
-import geometricBG from '../../assets/geometric_bg.png'
+import {ReactComponent as TiltedArrow} from '../../assets/TiltedArrow.svg'
 import styles from './hero.module.scss'
 
 const Hero = () => {
   return (
     <div>
-        <div className='hero '>
-            <div>
-                <div className={styles.logo}>
-                    logo
+        <div className='hero'>
+            <div className={`d-flex flex-column justify-content-between ${styles.intro}` }>
+                <div className={`d-flex flex-column ${styles.base_info}`}>
+                  <img src='' className={styles.avatar} alt="avatar of female"/>
+                  <p className='fs_medium opacity_white'>Hi. I am</p>
+                  <span className='fs_big'>Nosipho Manyase</span>
+                  <p className='fs_medium opacity_white'>Front-end Developer</p>
                 </div>
-                <nav className='navbar'>
-                    <a className={styles.nav_item}>About me</a>
-                    <a className={styles.nav_item}>Skills</a>
-                    <a className={styles.nav_item}>Portfolio</a>
-                    <a className={styles.nav_item}>Contact me</a>
-                </nav>
-            </div>
-            
-            <div className={`d-flex justify-content-between ${styles.intro}` }>
-                <div className='d-flex flex-column justify-content-center'>
-                    <p className={styles.font_small}>Hi, I am</p>
-                    <span className={styles.name}>Nosipho Manyase</span>
-                    <p className={styles.job_title}>Front-end Developer</p>
-                    <div className={styles.links}>
-                        <a className={styles.link}><EnvelopeAtFill className={styles.icon}/></a>
-                        <a className={styles.link}><Github className={styles.icon}/></a>
-                        <a className={styles.link}><Linkedin className={`rounded-circle ${styles.icon}`}/></a>
-                    </div>
-                </div>
-                <div>
-                    <img src={geometricBG} alt='' className={styles.bg_image}/>
+                <p className='opacity_white'>I am a person that prioritises living a relatively happy life, so I've made it a point to find a career path that I enjoy, even when it's extremely difficult. 
+                The fact that there is always something new to learn, is music to the ears of a lifelong learner.</p>
+                <div className={styles.links}>
+                    <a href='' className={styles.link}>Email<TiltedArrow/></a>
+                    <a href='' className={styles.link}>LinkedIn<TiltedArrow/></a>
+                    <a href='' className={styles.link}>Github<TiltedArrow/></a>
                 </div>
             </div>
                 

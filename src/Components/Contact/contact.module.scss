@@ -1,7 +1,18 @@
+.contact{
+    gap: 8px;
 
-.submit_btn{
-    background-color: #F07900;
-    border: none;
-    color: #2A2A2A;
-    font-weight: 600;
+    & a{
+        color: white;
+    }
+}
+
+.links{
+    gap: 16px;
+}
+
+.to_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
 }
