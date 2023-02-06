@@ -11,6 +11,8 @@
     height: 80px;
 }
 
+
+
 .links{
     display: flex;
     gap: 16px;
@@ -18,7 +20,10 @@
 
 .link{
     color: white;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
+    font-size: 21px;
+
+    &:hover{
+        color: #CC5500;
+        transition: transform .5s ease-in-out;
+    }
 }

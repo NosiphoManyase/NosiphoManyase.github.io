@@ -1,10 +1,11 @@
 import React from 'react'
+import { Gem } from 'react-bootstrap-icons'
 import styles from './about.module.scss'
 
 const About = () => {
   return (
     <div className='about' id='about_section'>
-        <div className={`${styles.about_me}`}>
+        <div className={`${styles.about_me} section`}>
           <h4 className='fs_big'>About Me</h4>
           <p>I am currently working as an Apprentice Software Engineer
             at Bash. I have a BCom degree in Information Systems and Economics. My commerce degree had no formal courses on 
@@ -16,7 +17,9 @@ const About = () => {
             the things we build make people's lives easier.
           </p>
         </div>
-        
+        <div className='divider'>
+          <span></span><Gem className='px-2'/><span></span>
+        </div>
     </div>
   )
 }
