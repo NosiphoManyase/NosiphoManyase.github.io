@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.ec496bc8.css",
+    "main.js": "/react-gh-pages/static/js/main.6bc3b10d.js",
+    "static/js/787.ef0c4325.chunk.js": "/react-gh-pages/static/js/787.ef0c4325.chunk.js",
+    "static/media/movie_watchlist.png": "/react-gh-pages/static/media/movie_watchlist.92ad5940128405ce4485.png",
+    "static/media/tech_radar.png": "/react-gh-pages/static/media/tech_radar.323f37a004d58d7bca06.png",
+    "static/media/password_generator.png": "/react-gh-pages/static/media/password_generator.46ab5131ae5e571e0c9e.png",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/TiltedArrow.svg": "/react-gh-pages/static/media/TiltedArrow.50c048ee2b05d87e0e44e1fbe833cab3.svg",
+    "main.ec496bc8.css.map": "/react-gh-pages/static/css/main.ec496bc8.css.map",
+    "main.6bc3b10d.js.map": "/react-gh-pages/static/js/main.6bc3b10d.js.map",
+    "787.ef0c4325.chunk.js.map": "/react-gh-pages/static/js/787.ef0c4325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec496bc8.css",
+    "static/js/main.6bc3b10d.js"
+  ]
+}
