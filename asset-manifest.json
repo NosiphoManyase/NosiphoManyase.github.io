@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.009776a4.css",
-    "main.js": "/portfolio/static/js/main.0d09ff33.js",
-    "static/js/787.ef0c4325.chunk.js": "/portfolio/static/js/787.ef0c4325.chunk.js",
-    "static/media/movie_watchlist.png": "/portfolio/static/media/movie_watchlist.92ad5940128405ce4485.png",
-    "static/media/tech_radar.png": "/portfolio/static/media/tech_radar.323f37a004d58d7bca06.png",
-    "static/media/password_generator.png": "/portfolio/static/media/password_generator.46ab5131ae5e571e0c9e.png",
-    "index.html": "/portfolio/index.html",
-    "static/media/TiltedArrow.svg": "/portfolio/static/media/TiltedArrow.50c048ee2b05d87e0e44e1fbe833cab3.svg",
-    "main.009776a4.css.map": "/portfolio/static/css/main.009776a4.css.map",
-    "main.0d09ff33.js.map": "/portfolio/static/js/main.0d09ff33.js.map",
-    "787.ef0c4325.chunk.js.map": "/portfolio/static/js/787.ef0c4325.chunk.js.map"
+    "main.css": "/static/css/main.009776a4.css",
+    "main.js": "/static/js/main.550d29ac.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/movie_watchlist.png": "/static/media/movie_watchlist.92ad5940128405ce4485.png",
+    "static/media/tech_radar.png": "/static/media/tech_radar.323f37a004d58d7bca06.png",
+    "static/media/password_generator.png": "/static/media/password_generator.46ab5131ae5e571e0c9e.png",
+    "index.html": "/index.html",
+    "static/media/TiltedArrow.svg": "/static/media/TiltedArrow.50c048ee2b05d87e0e44e1fbe833cab3.svg",
+    "main.009776a4.css.map": "/static/css/main.009776a4.css.map",
+    "main.550d29ac.js.map": "/static/js/main.550d29ac.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.009776a4.css",
-    "static/js/main.0d09ff33.js"
+    "static/js/main.550d29ac.js"
   ]
 }
