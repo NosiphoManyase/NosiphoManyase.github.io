@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.009776a4.css",
-    "main.js": "/static/js/main.550d29ac.js",
+    "main.css": "/static/css/main.2ac9f9f0.css",
+    "main.js": "/static/js/main.dfb7ef7e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/movie_watchlist.png": "/static/media/movie_watchlist.92ad5940128405ce4485.png",
     "static/media/tech_radar.png": "/static/media/tech_radar.323f37a004d58d7bca06.png",
+    "static/media/profile2.png": "/static/media/profile2.91d9d8600825270d57be.png",
     "static/media/password_generator.png": "/static/media/password_generator.46ab5131ae5e571e0c9e.png",
     "index.html": "/index.html",
     "static/media/TiltedArrow.svg": "/static/media/TiltedArrow.50c048ee2b05d87e0e44e1fbe833cab3.svg",
-    "main.009776a4.css.map": "/static/css/main.009776a4.css.map",
-    "main.550d29ac.js.map": "/static/js/main.550d29ac.js.map",
+    "main.2ac9f9f0.css.map": "/static/css/main.2ac9f9f0.css.map",
+    "main.dfb7ef7e.js.map": "/static/js/main.dfb7ef7e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.009776a4.css",
-    "static/js/main.550d29ac.js"
+    "static/css/main.2ac9f9f0.css",
+    "static/js/main.dfb7ef7e.js"
   ]
 }
