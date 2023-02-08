@@ -1,7 +1,7 @@
 {
-  "name": "portfolio2023",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://nosiphomanyase.github.io/portfolio",
+  "homepage": "https://nosiphomanyase.github.io/portfolio/",
   "private": false,
   "dependencies": {
     "@formspree/react": "^2.4.1",
