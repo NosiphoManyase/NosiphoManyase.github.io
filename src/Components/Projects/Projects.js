@@ -65,7 +65,7 @@ const Projects = () => {
               <img src={passwordGenerator} alt=''/>
             </div>
         </div>
-        <a className={`fs-medium ${styles.github_link}`}>View all projects <TiltedArrow /></a>
+        <a href='https://github.com/NosiphoManyase?tab=repositories' target='_blank' className={`fs-medium ${styles.github_link}`}>View all projects <TiltedArrow /></a>
        </div>
        <div className='divider'>
             <span></span><Gem className='px-2'/><span></span>

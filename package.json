@@ -1,6 +1,7 @@
 {
   "name": "portfolio2023",
   "version": "0.1.0",
+  "homepage": "https://nosiphomanyase.github.io/react-gh-pages/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.57.1"
   }
 }

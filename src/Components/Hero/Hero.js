@@ -11,7 +11,7 @@ const Hero = () => {
                   <img src='' className={styles.avatar} alt="avatar of female"/>
                   <p className='fs_medium opacity_white'>Hi. I am</p>
                   <span className='fs_big'>Nosipho Manyase</span>
-                  <p className='fs_medium opacity_white'>Front-end Developer</p>
+                  <p className='opacity_white text-decoration-underline'>Front-end Developer</p>
                 </div>
                 <p className='opacity_white'>I am a person that prioritises living a relatively happy life, so I've made it a point to find a career path that I enjoy, even when it's extremely difficult. 
                 The fact that there is always something new to learn, is music to the ears of a lifelong learner.</p>
