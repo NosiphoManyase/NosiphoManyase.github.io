@@ -1,8 +1,8 @@
 {
   "name": "portfolio2023",
   "version": "0.1.0",
-  "homepage": "https://nosiphomanyase.github.io/react-gh-pages/",
-  "private": true,
+  "homepage": "https://nosiphomanyase.github.io/portfolio",
+  "private": false,
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.5",
