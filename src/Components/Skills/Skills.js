@@ -1,5 +1,14 @@
 import React from 'react'
 import { Gem } from 'react-bootstrap-icons'
+import htmlLogo from '../../assets/skills_logos/html.png'
+import cssLogo from '../../assets/skills_logos/css.png'
+import jsLogo from '../../assets/skills_logos/js.png'
+import bsLogo from '../../assets/skills_logos/bootstrap.png'
+import reactLogo from '../../assets/skills_logos/react.png'
+import gitLogo from '../../assets/skills_logos/git.png'
+import sassLogo from '../../assets/skills_logos/sass.png'
+import figmaLogo from '../../assets/skills_logos/figma.png'
+import reactQueryLogo from '../../assets/skills_logos/react-qry_logo.png'
 import styles from './skills.module.scss'
 
 const Skills = () => {
@@ -7,50 +16,59 @@ const Skills = () => {
     <div id='skills_section'>
           <div className='section'>
             <h4 className='fs_big header_mb'>Skills</h4>
-            <div className={styles.skills_list}>
+            <div className='skills_list'>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/html_logo.png'
-                alt='html logo' />
+                <img src={htmlLogo}
+                alt='html logo'
+                className={styles.image} />
                 <p className={`fs_small ${styles.skill_name}`}>HTML5</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/css_logo.png'
-                alt='css logo' />
+                <img src={cssLogo}
+                alt='css logo'
+                className={styles.image} />
                 <p className={`fs_small ${styles.skill_name}`}>CSS3</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/sass_logo.png'
-                alt='sass logo' />
+                <img src={sassLogo}
+                alt='sass logo' 
+                className={styles.image}/>
                 <p className={`fs_small ${styles.skill_name}`}>SASS</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/js_logo.png'
-                alt='javascript logo' />
+                <img src={jsLogo}
+                alt='javascript logo' 
+                className={styles.image}/>
                 <p className={`fs_small ${styles.skill_name}`}>JAVASCRIPT</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/boots_logo.png'
-                alt='bootstrap logo' />
+                <img src={bsLogo}
+                alt='bootstrap logo' 
+                className={styles.image}/>
                 <p className={`fs_small ${styles.skill_name}`}>BOOTSTRAP</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/react_logo.png'
-                alt='react logo' />
+                <img src={reactLogo}
+                alt='react logo' 
+                className={styles.image}/>
                 <p className={`fs_small ${styles.skill_name}`}>REACT</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/git_logo.png'
-                alt='git logo' />
+                <img src={gitLogo}
+                alt='git logo' 
+                className={styles.image} />
                 <p className={`fs_small ${styles.skill_name}`}>GIT</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/figma_logo.png'
-                alt='figma logo' />
+                <img src={figmaLogo}
+                alt='figma logo' 
+                className={styles.image}/>
                 <p className={`fs_small ${styles.skill_name}`}>FIGMA</p>
               </div>
               <div>
-                <img src='https://hossidin.sirv.com/portfolio-skills/skills/react-q_logo.png'
-                alt='react query logo' />
+                <img src={reactQueryLogo}
+                alt='react query logo' 
+                className={styles.image}/>
                 <p className={`fs_small ${styles.skill_name}`}>REACT QUERY</p>
               </div>
             </div>

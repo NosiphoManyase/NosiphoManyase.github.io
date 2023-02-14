@@ -1,29 +1,36 @@
-.project{
-    display: flex;
-   margin-bottom: 40px;
 
-    &_info{
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        margin-right: 15px;
-        gap: 20px;
-    }
-}
 .description{
     line-height: 22px;
 }
 
-.img_container{
-    width: 155px;
-    height: 179px;
+.project_info{
     display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 15px;
+    gap: 20px;
+}
+
+.img_container{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
-    & img{
-        width: 100%;
-        border-radius: 10px;
+
+    & div{
+    align-self: center;
+    
+        &:hover{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 350px;
+        }
     }
+
 }
 
 .site_link{
@@ -68,4 +75,23 @@
 
 .github_link{
     color: white;
+}
+
+.project_name{
+//   display: block;
+//   clear: both;
+}
+
+
+@media (max-width: 992px) {
+
+    .img_container{
+        order: 1;
+        display: block;
+    }
+
+    .project_info{
+        order: 2;
+    }
+    
 }

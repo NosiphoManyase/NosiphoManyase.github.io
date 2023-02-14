@@ -12,8 +12,54 @@
     font-family: 'Inter', sans-serif;
 }
 
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.show {
+    background-color: transparent;
+
+    @at-root .navbar{
+        // background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 12px 24px;
+    margin-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+    width: max-content;
+
+    &
+
+    &:hover{
+        color: white;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #CC5500;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+
+      &:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+}
+
 .wrapper{
-    width: 606px;
     margin: 0 auto;
 }
 
@@ -22,6 +68,7 @@
     flex-direction: column;
     gap: 32px;
     padding-bottom: 64px;
+    width: 100%;
 }
 
 .header_mb,
@@ -44,6 +91,7 @@
 .opacity_white{
     color: rgba(255, 255, 255, 0.5);
 }
+
 
 .divider {								
     display: table; 
@@ -78,4 +126,65 @@
     background-image: -moz-linear-gradient(180deg, #CC5500, transparent);
     background-image: -o-linear-gradient(180deg, #CC5500, transparent);
     background-image: linear-gradient(90deg, #CC5500, transparent);
+}
+
+.skills_list{
+    display:  grid;
+    grid-template-columns: repeat(3, 105px);
+    grid-template-rows: repeat(3, 105px);
+    width: max-content;
+    align-items: center;
+}
+
+.project_card{
+    margin-bottom: 60px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 320px) {
+    .wrapper{
+        padding: 0px 1rem;
+    }
+}
+@media (min-width: 576px) {
+    .wrapper{
+        width: 400px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 768px){
+    .wrapper{
+        width: 606px;
+    }
+    
+    .skills_list{
+        grid-template-columns: repeat(5, 85px);
+        grid-template-rows: repeat(2, 85px);
+        gap: 32px;
+    
+        & div{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .project{
+        flex-direction: row;
+       
+       position: relative;  
+       height: max-content;
+    }
+
+    .navbar{
+        background-color: transparent;
+    }
 }

@@ -1,19 +1,22 @@
 import React from 'react'
-import techRadar from '../../assets/projects/tech_radar.png'
-import movieWatchlist from '../../assets/projects/movie_watchlist.png'
-import passwordGenerator from '../../assets/projects/password_generator.png'
+import techRadar from '../../assets/project_pics/tech_radar.png'
+import techRadarVid from '../../assets/project_vids/video1.mp4'
+import movieWatchlist from '../../assets/project_pics/movie_watchlist.png'
+import passwordGenerator from '../../assets/project_pics/password_generator.png'
 import {ReactComponent as TiltedArrow} from '../../assets/TiltedArrow.svg'
 import styles from './projects.module.scss'
 import { Gem } from 'react-bootstrap-icons'
+import HoverVideo from './HoverVideo'
 
 const Projects = () => {
   return (
     <div className='d-flex flex-column' id='projects_section'>
       <div className='section'>
         <h4 className='fs_big header_mb'>Projects</h4>
-        <div className={styles.project}>
-            <div className={styles.project_info}>
-              <p className='fs_medium'>Tech Radar</p>
+        <div className='project_card'>   
+            <p className={`fs_medium ${styles.project_name}`}>Tech Radar</p>
+            <div className='project'>
+              <div className={styles.project_info}>
               <p className={`opacity_white ${styles.description}`}>A graphical respresentation
               that tracks all the technologies that an individual or organisation ; have 
               adopted, are currently in trial, are currently being assessed or phased out(hold).
@@ -24,14 +27,17 @@ const Projects = () => {
                 <a href='#' className={`${styles.cta_btns} ${styles.live_demo_link}`}>LIVE DEMO</a>
                 <a href='#' className={`${styles.cta_btns} ${styles.github_project_link}`}>GITHUB</a>
               </div>
-            </div>
-            <div className={styles.img_container}>
-              <img src={techRadar} alt=''/>
+              </div>
+              <div className={styles.img_container}>
+                <HoverVideo video={techRadarVid} source={techRadar}/>
+              </div>
             </div>
         </div>
-        <div className={styles.project}>
-            <div className={styles.project_info}>
+        <div className='project_card'>
+            
               <p className='fs_medium'>Movies Screening</p>
+              <div className='project'>
+              <div className={styles.project_info}>
               <p className={`opacity_white ${styles.description}`}>
                 This project displays movies currently showing in all movie theartres.
                 The movies are categorised into genres, have a description page and can be
@@ -43,14 +49,17 @@ const Projects = () => {
                 <button className={`${styles.cta_btns} ${styles.github_project_link}`}>GITHUB</button>
               </div>
               
-            </div>
-            <div className={styles.img_container}>
-              <img src={movieWatchlist} alt=''/>
+              </div>
+              <div className={styles.img_container}>
+                <HoverVideo video={techRadarVid} source={movieWatchlist}/>
+              </div>
             </div>
         </div>
-        <div className={styles.project}>
+        <div className='project_card'>
+          <p className='fs_medium'>Password Generator</p>
+            <div className='project'>
             <div className={styles.project_info}>
-              <p className='fs_medium'>Password Generator</p>
+              
               <p className={`opacity_white ${styles.description}`}>An application
               that generates a 14 letter password with 4 numbers, 7 letters
               and 3 special characters in a randomised order. This projectis 
@@ -62,7 +71,8 @@ const Projects = () => {
               
             </div>
             <div className={styles.img_container}>
-              <img src={passwordGenerator} alt=''/>
+              <HoverVideo video={techRadarVid} source={passwordGenerator}/>
+            </div>
             </div>
         </div>
         <a href='https://github.com/NosiphoManyase?tab=repositories' target='_blank' className={`fs-medium ${styles.github_link}`}>View all projects <TiltedArrow /></a>
