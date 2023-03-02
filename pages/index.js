@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Hero from '@/components/hero'
-import NavbarSet from '@/components/Navbar'
-import Skills from '@/components/Skills'
-import Projects from '@/components/Projects'
-import About from '@/components/About'
-import Contact from '@/components/Contact'
+import NavbarSet from '@/components/navbar'
+import Skills from '@/components/skills'
+import Projects from '@/components/projects'
+import About from '@/components/about'
+import Contact from '@/components/contact'
 
 
 
