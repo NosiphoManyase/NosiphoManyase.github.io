@@ -19,7 +19,7 @@ const Hero = () => {
                   <span className='fs_big'>Nosipho Manyase</span>
                   <p className='opacity_white '>Front-end Developer</p>
                 </div>
-                <p className='opacity_white'>I prioritise living a relatively happy life, so I've made it a point to find a career path that I enjoy, even when it's extremely difficult. 
+                <p className='opacity_white'>I prioritise living a relatively happy life, so I&apos;ve made it a point to find a career path that I enjoy, even when it&apos;s extremely difficult. 
                 The fact that there is always something new to learn, is music to the ears of a lifelong learner.</p>
                 <div className={styles.links}>
                     <a href="mailto:manyasenosipho@gmail.com" target='_blank' className={styles.link}><EnvelopeAt /></a>
