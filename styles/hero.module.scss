@@ -1,0 +1,29 @@
+.intro{
+    gap: 16px;
+}
+
+.base_info{
+    gap: 8px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.link{
+    color: white;
+    font-size: 21px;
+
+    &:hover{
+        color: #CC5500;
+        transition: transform .5s ease-in-out;
+    }
+}
